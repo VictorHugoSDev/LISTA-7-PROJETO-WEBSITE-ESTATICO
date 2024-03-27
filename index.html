@@ -15,47 +15,47 @@
         <label for="nome">Nome:</label>
         <br>
         <input id="nome" type="text" placeholder="Nome completo" required>
-        <br>
+        <br><br>
         <label for="dtNasc">Data de nascimento:</label>
         <br>
         <input id="dtNasc" type="date" required>
-        <br>
+        <br><br>
         <label>Sexo:</label>
         <br>
         <input type="radio" name="sexo" id="masc" value="masculino" required><label for="masc">Masculino</label>
         <input type="radio" name="sexo" id="femi" value="feminino " required><label for="femi">Feminino</label>
     </fieldset>
-    <br><br>
+    <br>
 
     <fieldset>
         <legend>Informações de contato</legend>
         <label for="email">Email:</label>
         <br>
         <input id="email" type="email" required>
-        <br>
+        <br><br>
         <label for="telefone">Telefone celular:</label>
         <br>
         <input id="telefone" type="tel" maxlength="9" placeholder="Apenas números (máx: 9)" required>
-        <br>
-        <label for="web">Website pessoal/profissional</label>
+        <br><br>
+        <label for="web">Website pessoal/profissional:</label>
         <br>
         <input type="url" id="web">
     </fieldset>
-    <br><br>
+    <br>
     <fieldset>
-        <legend>Localização:</legend>
+        <legend>Localização</legend>
         <label for="endereco">Endereço:</label>
         <br>
         <input type="text" id="endereco" required>
-        <br>
+        <br><br>
         <label for="num">Número:</label>
         <br>
-        <input id="num" type="number" min="1" max="9999" placeholder="(Valor entre 1 e 9999)" required>
-        <br>
+        <input id="num" type="number" min="1" max="9999" placeholder="(Valor entre 1 e 9999)" required style="width: 150px;">
+        <br><br>
         <label for="cidade">Cidade:</label>
         <br>
         <input id="cidade" type="text" required>
-        <br>
+        <br><br>
         <label for="estado">Estado:</label>
         <br>
         <select name="estado" id="estado" required>
@@ -88,7 +88,7 @@
             <option value="TO">Tocantins</option>
         </select>
     </fieldset>
-        <br><br>
+        <br>
         <!-- Seção de Botões-->
         <input type="submit" value="Cadastrar">
         <input type="reset" value="Limpar">
